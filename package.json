@@ -19,6 +19,9 @@
     "url": "https://github.com/uelgum/ape-logger/issues"
   },
   "homepage": "https://github.com/uelgum/ape-logger#readme",
+  "files": [
+    "/build"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/preset-env": "^7.18.2",
