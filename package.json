@@ -1,5 +1,5 @@
 {
-  "name": "ape-logger",
+  "name": "@uelgum/logger",
   "version": "1.0.0",
   "description": "Maßgefertigter Logger für Ülgum-Projekte.",
   "main": "./build/index.js",
