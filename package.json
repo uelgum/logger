@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Maßgefertigter Logger für Ülgum-Projekte.",
   "main": "./build/index.js",
+  "private": true,
   "scripts": {
     "check-types": "tsc --noEmit",
     "clean": "rimraf ./build",
