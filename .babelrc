@@ -3,6 +3,7 @@
     "@babel/preset-env",
     "@babel/typescript"
   ],
+  "comments": false,
   "ignore": [
     "./src/types"
   ]
