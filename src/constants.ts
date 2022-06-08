@@ -24,7 +24,19 @@ const colors = {
     WHITE: "\x1b[97m"
 };
 
+/**
+    Farben der Level.
+*/
+const levelColors = {
+    DBG: colors.CYAN,
+    INFO: colors.GREEN,
+    WARN: colors.YELLOW,
+    ERR: colors.RED,
+    FTL: colors.RED_BG
+};
+
 export {
     levels,
-    colors
+    colors,
+    levelColors
 };
