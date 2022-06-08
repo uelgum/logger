@@ -25,7 +25,7 @@ class Formatter {
         Formatiert das Level.
     */
     private formatLevel(level: Level) {
-        return levelColors[level] + level.padEnd(4) + colors.WHITE;
+        return levelColors[level] + level.padEnd(4) + colors.RESET + colors.WHITE;
     }
 
     /**
