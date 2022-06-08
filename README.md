@@ -87,7 +87,7 @@ logger.warn(message: unknown);
 Erstellt einen Error-Log (`ERR`).
 
 ```ts
-logger.errpr(message: unknown);
+logger.error(message: unknown);
 ```
 
 **Parameter**
