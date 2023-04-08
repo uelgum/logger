@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Proprietärer Logger für Node.js.",
   "main": "./build/index.js",
+  "files": [
+    "./build"
+  ],
   "scripts": {
     "clean": "rimraf ./build",
     "build": "rimraf ./build && tsc"
