@@ -27,5 +27,8 @@
     "@types/node": "^18.15.11",
     "rimraf": "^4.4.1",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "file-stream-rotator": "^1.0.0"
   }
 }
