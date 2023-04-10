@@ -87,6 +87,13 @@ class Logger {
     }
 
     /**
+        Log-Level.
+    */
+    public get level() {
+        return this._level;
+    }
+
+    /**
         Erstellt einen `debug`-Log.
     */
     public debug(message: any) {
