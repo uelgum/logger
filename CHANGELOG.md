@@ -10,6 +10,7 @@
 
 ## v2.0.0 (2023-10-04)
 ### Hinzugefügt
+- [[`3af87b7`](https://github.com/uelgum/logger/commit/3af87b7)] - 🪲 fix: add docs comment
 - [[`b9917eb`](https://github.com/uelgum/logger/commit/b9917eb)] - ✨ feat: add level getter
 - [[`6321cb5`](https://github.com/uelgum/logger/commit/6321cb5)] - ✨ feat: add file adapter
 - [[`be28609`](https://github.com/uelgum/logger/commit/be28609)] - 🛠️ build: install `file-stream-rotator`
