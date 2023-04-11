@@ -51,7 +51,7 @@ type Output = {
 // #endregion
 
 /**
-	Adapter für Log-Dateien.
+    Adapter für Log-Dateien.
 */
 class FileAdapter extends Adapter {
     // #region Attribute
