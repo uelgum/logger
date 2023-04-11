@@ -8,6 +8,11 @@
     ### Entfernt
 -->
 
+
+## Unreleased
+### Verändert
+- [[`6a1ed08`](https://github.com/uelgum/logger/commit/6a1ed08)] - 💎 style: convert tabs to spaces
+
 ## v2.0.0 (2023-10-04)
 ### Hinzugefügt
 - [[`3af87b7`](https://github.com/uelgum/logger/commit/3af87b7)] - 🪲 fix: add docs comment
