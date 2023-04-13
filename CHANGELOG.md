@@ -8,8 +8,7 @@
     ### Entfernt
 -->
 
-
-## Unreleased
+## v2.0.1 (2023-13-04)
 ### Verändert
 - [[`6a1ed08`](https://github.com/uelgum/logger/commit/6a1ed08)] - 💎 style: convert tabs to spaces
 
