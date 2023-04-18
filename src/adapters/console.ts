@@ -10,14 +10,14 @@ import type { Log } from "../logger";
 /**
     Farben.
 */
-const colors = {
-    RESET: "\u001b[0m",
-    GRAY: "\u001b[90m",
-    RED: "\u001b[91m",
-    GREEN: "\u001b[92m",
-    YELLOW: "\u001b[93m",
-    BLUE: "\u001b[94m",
-    MAGENTA: "\u001b[95m",
+const enum Colors {
+    RESET = "\u001b[0m",
+    GRAY = "\u001b[90m",
+    RED = "\u001b[91m",
+    GREEN = "\u001b[92m",
+    YELLOW = "\u001b[93m",
+    BLUE = "\u001b[94m",
+    MAGENTA = "\u001b[95m",
 };
 
 /**
@@ -57,7 +57,7 @@ class ConsoleAdapter extends Adapter {
         Formatiert den Zeitstempel.
     */
     private _timestamp(timestamp: number) {
-        return `[${colors.MAGENTA}${this._timeFormatter.format(timestamp)}${colors.RESET}] `;
+        return `[${Colors.MAGENTA}${this._timeFormatter.format(timestamp)}${Colors.RESET}] `;
     }
 
     /**
@@ -71,35 +71,35 @@ class ConsoleAdapter extends Adapter {
             // Debug
             case levels.DEBUG:
                 levelName = "debug";
-                levelColor = colors.BLUE;
+                levelColor = Colors.BLUE;
                 break;
 
             // Info
             case levels.INFO:
                 levelName = "info";
-                levelColor = colors.GREEN;
+                levelColor = Colors.GREEN;
                 break;
 
             // Warnung
             case levels.WARN:
                 levelName = "warn";
-                levelColor = colors.YELLOW;
+                levelColor = Colors.YELLOW;
                 break;
 
             // Error
             case levels.ERROR:
                 levelName = "error";
-                levelColor = colors.RED;
+                levelColor = Colors.RED;
                 break;
 
             // Fatal
             case levels.FATAL:
                 levelName = "fatal";
-                levelColor = colors.RED;
+                levelColor = Colors.RED;
                 break;
         }
 
-        return `${levelColor}${levelName.padEnd(this._levelPad)}${colors.GRAY} › ${colors.RESET}`;
+        return `${levelColor}${levelName.padEnd(this._levelPad)}${Colors.GRAY} › ${Colors.RESET}`;
     }
 
     /**
@@ -114,7 +114,7 @@ class ConsoleAdapter extends Adapter {
                 .slice(1)
                 .join("\n");
 
-            output += `\n${colors.GRAY}${stack}${colors.RESET}`; 
+            output += `\n${Colors.GRAY}${stack}${Colors.RESET}`; 
         }
 
         return output;
@@ -132,7 +132,7 @@ class ConsoleAdapter extends Adapter {
             .map((line) => " ".repeat(4) + line)
             .join("\n");
 
-        output += `${colors.GRAY}${inspection}${colors.RESET}`;
+        output += `${Colors.GRAY}${inspection}${Colors.RESET}`;
 
         return output;
     }
