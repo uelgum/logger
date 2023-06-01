@@ -21,3 +21,6 @@
 - [[`dbcb8ce`](https://github.com/uelgum/logger/commit/dbcb8ce)] - chore: add commitlint config
 - [[`139b885`](https://github.com/uelgum/logger/commit/139b885)] - chore: add `.gitignore`
 - [[`bf4b602`](https://github.com/uelgum/logger/commit/bf4b602)] - chore: add `.editorconfig`
+
+## Verändert
+- [[`3646ac0`](https://github.com/uelgum/logger/commit/3646ac0)] - chore: update `prepare` script
