@@ -1,0 +1,34 @@
+{
+  "name": "@uelgum/logger",
+  "version": "1.0.0",
+  "description": "Proprietärer Logger für Node.js.",
+  "main": "./build/index.js",
+  "files": [
+    "./build"
+  ],
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./build",
+    "build": "rimraf ./build && tsc",
+    "prepare": "husky install",
+    "prepack": "rimraf ./build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uelgum/logger.git"
+  },
+  "author": "Wlad G. Gumenyuk",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/uelgum/logger/issues"
+  },
+  "homepage": "https://github.com/uelgum/logger#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@types/node": "^20.2.5",
+    "husky": "^8.0.3",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.0.4"
+  }
+}
