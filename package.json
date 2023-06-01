@@ -10,8 +10,7 @@
   "scripts": {
     "clean": "rimraf ./build",
     "build": "rimraf ./build && tsc",
-    "prepare": "husky install",
-    "prepack": "rimraf ./build && tsc"
+    "prepare": "husky install && rimraf ./build && tsc"
   },
   "repository": {
     "type": "git",
