@@ -77,7 +77,7 @@ export class Logger {
     */
     constructor(options: LoggerOptions) {
         this._adapters = options.adapters || [];
-        this.level = options.level || Level.INFO;
+        this.level = options.level ?? Level.INFO;
     }
 
     /**
