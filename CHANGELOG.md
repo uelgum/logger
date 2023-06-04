@@ -8,6 +8,10 @@
     ### Entfernt
 -->
 
+## v1.0.1 (2023-06-04)
+### Behoben
+- [[`5e022e6`](https://github.com/uelgum/logger/commit/5e022e6)] - fix: accept debug level in options
+
 ## v1.0.0 (2023-06-01)
 ### Hinzugefügt
 - [[`d2aa0d7`](https://github.com/uelgum/logger/commit/d2aa0d7)] - feat: add index
