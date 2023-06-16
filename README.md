@@ -1,6 +1,8 @@
 # `@uelgum/logger`
 Proprietärer Logger für Node.js.
 
+> ⚠️ Dieses Projekt wird nicht mehr unterstützt.
+
 ## Übersicht
 - [Installation](#installation)
 - [Benutzung](#benutzung)
